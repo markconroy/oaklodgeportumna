@@ -1,0 +1,44 @@
+/**
+ * @file
+ * This file creates the styling for the form elements.
+ */
+
+input.form-text,
+input.form-tel,
+input.form-email,
+input.form-url,
+input.form-search,
+input.form-file,
+input.form-number,
+input.form-color,
+textarea.form-textarea,
+select.form-select {
+  padding: 1rem 0 1rem 1rem;
+  border: 1px solid $c-grey--light;
+  border-radius: 2px;
+  &:focus,
+  &:hover {
+    outline: none;
+  }
+}
+
+input.form-submit {
+  background: $white;
+  border: 1px solid $c-primary;
+  border-radius: 0;
+  color: $c-primary;
+  padding: 1rem;
+  text-transform: uppercase;
+  &:focus,
+  &:hover {
+    background: $c-primary;
+    color: $white;
+  }
+}
+
+.form-item {
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}

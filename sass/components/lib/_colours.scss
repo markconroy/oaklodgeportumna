@@ -1,0 +1,39 @@
+/**
+ * @file
+ * This file lists the colours that we are going to use in the theme.
+ *
+ * Please keep the number of colours to a minimum for sake of maintainability.
+ *
+ * If using greys, let's not have 50 shades of them.
+ *
+ * We put a prefix on all our colours here so they show
+ * up beside each other when typing '$c-...' in Atom with the Pigments
+ * plugin.
+ */
+
+/* Default Colours */
+$black: #000;
+$white: #fff;
+
+/* Theme Colours */
+$c-primary:          #94222A;
+$c-primary-light:    lighten($c-primary, 20%);
+$c-primary-dark:     darken($c-primary, 10%);
+
+$c-secondary:        #0000ff;
+$c-secondary-light:  lighten($c-secondary, 20%);
+$c-secondary-dark:   darken($c-secondary, 20%);
+
+$c-tertiary:         #ff00ff;
+$c-tertiary-light:   lighten($c-tertiary, 20%);
+$c-tertiary-dark:    darken($c-tertiary, 20%);
+
+/* Greys */
+
+$c-grey--lightest: #f8f8f8;   // Lightest Grey // In Use - html
+$c-grey--lighter: #f2f2f2;    // Lighter Grey // In Use - footer bg
+$c-grey--light: #e9e9e9;      // Light Grey // In Use - border on input for search exposed filter
+$c-grey: #4E4E4E;             // Grey // In Use - Paragraph Text
+$c-grey--dark: #323232;       // Dark Grey // In Use - Footer menu items
+$c-grey--darker: #31363B; // Darker Grey // In Use - Sub-heading/Intro Text
+$c-grey--darkest: #07090B;    // Darkest Grey // In Use - Story Title

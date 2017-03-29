@@ -1,0 +1,52 @@
+.nav {
+  position: absolute;
+  right: 0;
+  width: 33%;
+  @include breakpoint($large) {
+    width: 75%;
+  }
+}
+
+.menu-toggle {
+  background: $c-primary-dark;
+  border: none;
+  color: $white;
+  cursor: pointer;
+  float: right;
+  font-size: 1rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.main-menu {
+  background: $c-primary-dark;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  @include breakpoint($large) {
+    align-items: center;
+    background: $c-primary;
+    display: flex !important; // Needed to override the display: block from .show()
+    height: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+.main-menu .menu-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.main-menu .menu-item a {
+  display: inline-block;
+  padding: 1rem;
+  @include breakpoint($large) {
+    border-bottom: 2px solid $c-primary;
+    &:focus,
+    &:hover {
+      border-bottom: 2px solid $c-primary-light;
+    }
+  }
+}

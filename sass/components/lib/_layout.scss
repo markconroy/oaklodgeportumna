@@ -1,0 +1,21 @@
+/**
+ * @file
+ * This file creates the out layout of the site and all the regions.
+ */
+
+// Box Sizing all the things
+.html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+$max-width: $large;
+
+.container {
+  margin: auto;
+  max-width: $max-width;
+}

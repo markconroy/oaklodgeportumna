@@ -1,0 +1,25 @@
+/**
+ * @file
+ * This file is used to style the slider.
+ */
+
+.flexslider {
+  // This padding-bottom percentage lark is based on an idea found here:
+  // http://aspiringwebdev.com/stop-your-web-pages-from-jumping-around-while-images-load/
+  // height: 0;
+  overflow: hidden;
+  // padding-bottom: 52.6315789474%; // ratio of images in slides height:width
+  position: relative;
+}
+
+.flexslider ul {
+  margin: 0;
+  padding: 0;
+}
+
+.flexslider ul li {
+  // display: none; // To make sure we don't see slides 2/3/4/etc before we are ready.
+  left: 0;
+  position: absolute;
+  top: 0;
+}
