@@ -1,12 +1,3 @@
-.nav {
-  position: absolute;
-  right: 0;
-  width: 33%;
-  @include breakpoint($large) {
-    width: 75%;
-  }
-}
-
 .menu-toggle {
   background: $c-primary-dark;
   border: none;

@@ -14,6 +14,7 @@
     padding-bottom: 8px;
   }
 }
+
 .header .container {
   @extend .mobile-padding;
   display: flex;
@@ -23,6 +24,15 @@
   margin-top: .5rem;
   width: 67%;
   @include breakpoint($large) {
-    width: 25%;
+    width: 30%;
+  }
+}
+
+.header .nav {
+  position: absolute;
+  right: 0;
+  width: 33%;
+  @include breakpoint($large) {
+    width: 70%;
   }
 }
