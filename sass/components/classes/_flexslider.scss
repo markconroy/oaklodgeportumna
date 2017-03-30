@@ -4,6 +4,8 @@
  */
 
 .flexslider {
+  height: 0;
+  padding-bottom: 42.37%; // ratio of height to width
   overflow: hidden; // Makes sure the content underneath it doesn't disappear behind it
   position: relative;
 }
