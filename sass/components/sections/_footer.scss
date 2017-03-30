@@ -23,8 +23,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    &.social {
-      justify-content: space-around;
+  }
+  &.social {
+    justify-content: space-around;
+    img {
+      height: 60px;
+      width: auto;
     }
   }
 }

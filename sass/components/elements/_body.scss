@@ -8,6 +8,6 @@ body {
   overflow-x: hidden;
   padding-top: 60px; // So the slider or main does not get hidden behind the header.
   @include breakpoint($large) {
-    padding-top: 86px;
+    padding-top: 80px;
   }
 }

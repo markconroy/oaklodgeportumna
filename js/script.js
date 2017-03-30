@@ -9,7 +9,7 @@ $(document).ready(function() {
       $menuToggle.show();
       $mainMenu.hide();
       $menuToggle.click(function() {
-        $mainMenu.slideToggle();
+        $mainMenu.toggle();
       });
     } else {
       $menuToggle.hide();
