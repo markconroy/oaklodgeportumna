@@ -10,5 +10,14 @@
 }
 
 .awards--image {
-  width: 150px;
+  text-align: center;
+  width: 100%;
+  @include breakpoint($medium) {
+    width: auto;
+  }
+
+  img {
+    width: 150px;
+  }
+
 }
