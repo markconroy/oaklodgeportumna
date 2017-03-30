@@ -1,8 +1,9 @@
 /**
  * @file
- * This file that creates the CSS for the main region.
+ * This file that creates the CSS for the main section.
  */
 
 .main {
   @extend .mobile-padding;
+  padding-bottom: 2rem;
 }

@@ -1,3 +1,8 @@
+/**
+ * @file
+ * This file that creates the CSS for the nav secion.
+ */
+
 .menu-toggle {
   background: $c-primary-dark;
   border: none;
@@ -5,7 +10,7 @@
   cursor: pointer;
   float: right;
   font-size: 1rem;
-  padding: 1rem;
+  padding: 19px 1rem;
   text-transform: uppercase;
 }
 

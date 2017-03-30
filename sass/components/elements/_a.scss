@@ -6,9 +6,8 @@
 a {
   color: $c-primary;
   text-decoration: none;
-}
-
-.field--type-text-long a {
-  border-bottom: 1px solid $c-primary;
-  color: $c-grey--darkest;
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+  }
 }

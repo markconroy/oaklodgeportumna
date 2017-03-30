@@ -1,0 +1,39 @@
+/**
+ * @file
+ * This file that creates the CSS for the footer secion.
+ */
+
+.footer {
+  @extend .mobile-padding;
+  background: $c-primary-dark;
+  color: $white;
+  overflow: hidden;
+  text-align: center;
+  @include breakpoint($medium) {
+    text-align: left;
+  }
+}
+
+.footer .container {
+  margin-bottom: 2rem;
+}
+
+.footer .inner {
+  @include breakpoint($medium) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &.social {
+      justify-content: space-around;
+    }
+  }
+}
+
+.footer a {
+  color: $white;
+  text-decoration: underline;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+}
