@@ -4,12 +4,15 @@ $(document).ready(function() {
   function mainMenu() {
     var $menuToggle = $('.menu-toggle');
     var $mainMenu = $('.main-menu');
+    var $nav = $('.nav');
 
     if ($(window).width() < 1100) {
       $menuToggle.show();
       $mainMenu.hide();
       $menuToggle.click(function() {
         $mainMenu.toggle();
+        $('.nav').toggleClass('active');
+        $('body').toggleClass('noscroll');
       });
     } else {
       $menuToggle.hide();

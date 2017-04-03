@@ -30,10 +30,14 @@
 .header .site-name {
   align-items: center;
   display: flex;
+  font-size: 120%;
   height: 60px;
   margin-top: 6px;
+  position: relative;
   width: 67%;
+  z-index: 10;
   @include breakpoint($large) {
+    font-size: $h1-font-size;
     height: 80px;
     width: 30%;
   }
@@ -43,6 +47,11 @@
   position: absolute;
   right: 0;
   width: 33%;
+  &.active {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100%;
+  }
   @include breakpoint($large) {
     width: 70%;
   }
