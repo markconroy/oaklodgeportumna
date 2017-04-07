@@ -11,11 +11,13 @@
 
 .gallery .gallery--button {
   border: 0;
-  background: red;
+  background: transparent;
+  margin: 0;
+  padding: 0;
 }
 
-.gallery--popup {
-  background: rgba($c-grey--dark, .9);
+.gallery--popup-item {
+  background: rgba($c-grey--light, .95);
   bottom: 0;
   display: none;
   height: 100%;
@@ -29,16 +31,19 @@
 }
 
 .gallery--popup--image {
-  @extend .centered-xy;
+  @include breakpoint($medium) {
+    @extend .centered-xy;
+  }
 }
 
 .gallery--popup--close {
-  background: $white;
+  background: $c-primary;
+  bottom: 1rem;
+  color: $white;
   border: 0;
   font-weight: bold;
   padding: 1rem;
   position: absolute;
   right: 1rem;
   text-transform: uppercase;
-  top: 1rem;
 }
