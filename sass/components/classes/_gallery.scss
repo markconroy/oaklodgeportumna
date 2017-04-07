@@ -1,0 +1,44 @@
+/**
+ * @file
+ * This file is used to style the gallery.
+ */
+
+.gallery {
+  @include breakpoint($medium) {
+    display: flex;
+  }
+}
+
+.gallery .gallery--button {
+  border: 0;
+  background: red;
+}
+
+.gallery--popup {
+  background: rgba($c-grey--dark, .9);
+  bottom: 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.gallery--popup--image {
+  @extend .centered-xy;
+}
+
+.gallery--popup--close {
+  background: $white;
+  border: 0;
+  font-weight: bold;
+  padding: 1rem;
+  position: absolute;
+  right: 1rem;
+  text-transform: uppercase;
+  top: 1rem;
+}

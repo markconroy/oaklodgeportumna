@@ -11,6 +11,7 @@
   <p>Portumna, being situated at the north end of Lough Derg on the River Shannon, has a huge amount to offer any visitor, and Oak Lodge has accommodation to match. A fantastic choice of activities are available such as walking (at Portumna Forest Park), horse riding (at Flowerhill Equestrian Center), fishing (on the River Shannon) and golf (at Portumna Golf Club) on your doorstep and many historic sites in the area including Portumna Castle, the Domincan Abbey/Priory and a number of local churches. The town also hosts an outdoors festival each summer – <a href="http://www.portumnafestival.com">Great Outdoors</a> – and an arts festival each September – <a href="http://www.shorelinesartsfestival.com">Shorelines Arts Festival</a>. From our town-center location – just across the road from Shannon Oaks Hotel, everything is within walking distance (you can leave your car in our off-street, private carpark!).</p>
   <p>Locally there is a great choice of pubs and restaurants for your evening’s food and entertainment. All you need to do is relax and enjoy the comfort and hospitality of our guest-house in the tranquil surroundings of Portumna.</p>
   <p>Also, being a local person, Mary is perfectly placed to help you with any <a href="http://galwayeast.rootsireland.ie/">genealogy queries</a> that you might have. Want to trace your Irish roots? Why not start here?</p>
+  <?php include '../includes/gallery.php'; ?>
   <?php include '../includes/awards.php'; ?>
 </main>
 <?php include '../includes/footer.php'; ?>

@@ -22,11 +22,6 @@ $(document).ready(function() {
 
   mainMenu();
 
-  // List the functions we want to run when the window is resized.
-  $(window).resize(function() {
-    mainMenu();
-  });
-
   // Flexslider Code
   $(window).load(function() {
     $('.flexslider').flexslider({
@@ -34,4 +29,10 @@ $(document).ready(function() {
       directionNav: false
     });
   });
+
+  // List the functions we want to run when the window is resized.
+  $(window).resize(function() {
+    mainMenu();
+  });
+
 });
