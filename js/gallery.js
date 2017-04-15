@@ -18,6 +18,13 @@ $(document).ready(function() {
     $galleryButtonClose.click(function() {
       $galleryImage.fadeOut();
     });
+
+    $(document).keyup(function(e) {
+      if (e.keyCode == 27) {
+        $galleryImage.fadeOut();
+      }
+    });
+
   }
 
   gallery();
