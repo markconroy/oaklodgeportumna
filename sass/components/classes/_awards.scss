@@ -4,12 +4,30 @@
  */
 
 .awards {
+  font-weight: bold;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2rem;
   justify-content: space-around;
+  text-align: center;
+  @include breakpoint($medium) {
+    justify-content: space-between;
+  }
+}
+
+.award {
+  margin-bottom: 2rem;
+  width: 100%;
+  @include breakpoint($medium) {
+    width: 50%;
+  }
+  @include breakpoint($large) {
+    width: 25%;
+  }
 }
 
 .awards--image {
+  margin: auto;
   text-align: center;
   width: 100%;
   @include breakpoint($medium) {
