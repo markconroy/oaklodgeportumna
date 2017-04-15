@@ -6,14 +6,27 @@
 .gallery {
   @include breakpoint($medium) {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
+.gallery .gallery--item {
+  @include breakpoint($medium) {
+    width: 50%;
+  }
+  @include breakpoint($large) {
+    width: 33%;
+  }
+}
 .gallery .gallery--button {
   border: 0;
   background: transparent;
   margin: 0;
   padding: 0;
+  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 .gallery--popup-item {
