@@ -11,4 +11,3 @@
       </div>
   </div>
 </footer>
-<?php include 'includes/closing.php'; ?>

@@ -15,3 +15,4 @@
   <?php include '../includes/awards.php'; ?>
 </main>
 <?php include '../includes/footer.php'; ?>
+<?php include '../includes/closing.php'; ?>
