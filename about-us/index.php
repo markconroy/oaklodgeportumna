@@ -4,7 +4,7 @@
   <div class="hero-image">
     <img src="/assets/images/bed-and-breakfast/portumna-guest-house.jpg" />
   </div>
-  <h2>About Oak Lodge Portumna</h2>
+  <h1>About Oak Lodge Portumna</h1>
   <p>Welcome to <a href="/">Portumna’s Oak Lodge B&amp;B</a>. Run by local Portumna woman Mary Lynch, Oak Lodge is a family owned, <a href="http://www.discoverireland.com/gb/accommodation/listings/product/?fid=FI_41418">Bord Failte approved</a> 4 star accommodation.</p>
   <p>Your hostess Mary extends a warm welcome to all and invites guests to share the comfort and relaxed friendly atmosphere of her non-smoking guest-house. Come and discover the unique experience of Bed and Breakfast where home and hostess are individual and offer you an excellent personal service with facilities to match. Enjoy scones on arrival, accommodation close to all amenities, and, importantly, children are very welcome. Make yourself at home!</p>
   <p>We offer <strong>bed and breakfast accommodation</strong> with comfortable well-equipped rooms (<strong>all en suite with complimentary wi-fi</strong>), including a choice of twin, double and family rooms. We firmly believe that breakfast is the most important meal of the day, which is reflected in the variety and quality of our breakfast menu, served from 7am to 11am.</p>

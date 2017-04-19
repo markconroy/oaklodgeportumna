@@ -1,0 +1,50 @@
+/**
+ * @file
+ * This file is used to style the cards classes.
+ */
+
+.cards {
+  @include breakpoint($medium) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.card {
+  margin-bottom: 8px;
+  position: relative;
+  @include breakpoint($medium) {
+    width: 49%;
+  }
+  @include breakpoint($large) {
+    margin-bottom: 1rem;
+    width: 32%;
+  }
+}
+
+.card > a {
+  &:focus,
+  &:hover {
+    .card--title {
+      text-decoration: underline;
+    }
+  }
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .card--title {
+  background: rgba($white, 0.75);
+  bottom: 0;
+  margin: 0;
+  padding: 2rem 1rem;
+  position: absolute;
+  width: calc(100% - 2rem);
+  @include breakpoint($medium) {
+    padding: 2rem;
+    width: calc(100% - 4rem);
+  }
+}

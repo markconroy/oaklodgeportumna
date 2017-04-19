@@ -3,10 +3,12 @@
 <main class="main container">
 
   <?php
+    $index = 0;
     include '../local-attractions.php';
-    echo $local_attractions['0']['description'];
+    echo '<h1>' . $local_attractions[$index]['title'] . '</h1>';
+    echo $local_attractions[$index]['description'];
   ?>
 
 </main>
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/closing.php'; ?>
+<?php include '../../includes/footer.php'; ?>
+<?php include '../../includes/closing.php'; ?>
