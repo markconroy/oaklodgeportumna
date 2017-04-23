@@ -6,7 +6,18 @@
   </div>
   <div class="container">
     <h1>Fishing Holidays in Ireland</h1>
-    <p>You are very welcome to Oak Lodge <a href="/bed-breakfast/rooms-rates">Bed and Breakfast</a>, Portumna's only <a href="/bed-breakfast/facilities">Bord Fáilte-approved 4 star accomodation</a>, set in the heart of this beautiful, friendly town - walking distance from <a href="/things-to-do">all our great amenities</a>. Oak Lodge, the B&amp;B that <a href="http://www.tripadvisor.co.uk/Hotel_Review-g315874-d2257739-Reviews-Oak_Lodge_Bed_Breakfast_Portumna-Portumna_County_Galway_Western_Ireland.html">Trip Advisor users rate 5 stars</a>.</p>
+    <p><strong>Fishing in Ireland?</strong> <strong>Fishing in Galway?</strong> <strong>Fishing in Portumna?</strong> Why not start your <strong>fishing holiday</strong> in the right place? Oak Lodge offers the best location to begin and end your fishing trip - located within walking distance of the River Shannon and Lough Derg, offering an abundance of coarse and game fishing - bream, perch, pike, trout and, of course, salmon fishing.</p>
+    <p>We're only a very short (few minutes) drive from other impressive angling hot-spots, such as the ever-popular Fairyhill, Rodger's Island, Shebeen, and Salmon Run - all on the Shannon. If you'd like to venture further afield for your catch of the day, Banagher, Meelick, and Shannonbridge are all within a 30 minute drive from our doorstep.</p>
+    <p><a href="http://garrykennypalmerstonstores.com" title="Garry Kenny - Fishing Tackle Galway">Garry Kenny Palmerston Stores</a> offers excellent value locally in fishing gear, fishing tackle, and fishing bait.</p>
+    <p>If that's not enough to entice you to Oak Lodge Portumna for an <strong>angling vacation</strong>, we also offer complimentary storage facilities in our bait room, including:</p>
+    <ul>
+      <li>Fridge</li>
+      <li>Drying Room</li>
+      <li>Free laundry service</li>
+      <li>and <a href="/bed-breakfast/facilities" title="Fishing Holidays Ireland">lots of other facilities</a></li>
+    </ul>
+    <p>Portumna offers <strong>the best fishing experience in Ireland</strong>, Oak Lodge offers <strong>the best bed and breakfast in Portumna</strong>.</p>
+    <p><a href="/contact">Contact us</a> now to make an enquiry.</p>
     <?php include '../includes/awards.php'; ?>
   </div>
 </main>

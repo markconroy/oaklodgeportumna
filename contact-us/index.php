@@ -6,7 +6,10 @@
   </div>
   <div class="container">
     <h1>Contact Oak Lodge Portumna</h1>
-    <p>You are very welcome to Oak Lodge <a href="/bed-breakfast/rooms-rates">Bed and Breakfast</a>, Portumna's only <a href="/bed-breakfast/facilities">Bord Fáilte-approved 4 star accomodation</a>, set in the heart of this beautiful, friendly town - walking distance from <a href="/things-to-do">all our great amenities</a>. Oak Lodge, the B&amp;B that <a href="http://www.tripadvisor.co.uk/Hotel_Review-g315874-d2257739-Reviews-Oak_Lodge_Bed_Breakfast_Portumna-Portumna_County_Galway_Western_Ireland.html">Trip Advisor users rate 5 stars</a>.</p>
+    <p>Feel free to get in contact with us any time.</p>
+    <p>Landline: +353 (0)90 974 1549 - Mobile: 087 7924161</p>
+    <p>St Brendan's Road,<br>Portumna,<br>Co Galway,<br>Republic of Ireland</p>
+    <p>Email: <a href="mailtooaklodgeportumna@gmail.com">oaklodgeportumna@gmail.com</a></p>
     <?php include '../includes/awards.php'; ?>
   </div>
 </main>

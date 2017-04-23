@@ -6,7 +6,9 @@
   </div>
   <div class="container">
     <h1>Rooms and Rates</h1>
-    <p>You are very welcome to Oak Lodge <a href="/bed-breakfast/rooms-rates">Bed and Breakfast</a>, Portumna's only <a href="/bed-breakfast/facilities">Bord Fáilte-approved 4 star accomodation</a>, set in the heart of this beautiful, friendly town - walking distance from <a href="/things-to-do">all our great amenities</a>. Oak Lodge, the B&amp;B that <a href="http://www.tripadvisor.co.uk/Hotel_Review-g315874-d2257739-Reviews-Oak_Lodge_Bed_Breakfast_Portumna-Portumna_County_Galway_Western_Ireland.html">Trip Advisor users rate 5 stars</a>.</p>
+    <p>Pricing at <a href="/">Oak Lodge Portumna</a> depends on the number of nights you wish to stay and the type of room you wish to avail of. We have five rooms available, all are <strong>ensuite rooms</strong>.</p>
+    <p>Prices range from €25 - €40 per person sharing (pps).</p>
+    <p>We also have "<strong>room only</strong>" rates for people who wish to opt for <strong>self-catering accommodation in Portumna</strong>, rather than <strong>bed &amp; breakfast</strong>. Room only rates are €20 pps.</p>
     <?php include '../includes/awards.php'; ?>
   </div>
 </main>

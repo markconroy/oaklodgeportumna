@@ -45,7 +45,11 @@
 
 .gallery--popup--image {
   @include breakpoint($medium) {
-    @extend .centered-xy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
   }
 }
 

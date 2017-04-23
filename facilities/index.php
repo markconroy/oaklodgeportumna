@@ -6,7 +6,31 @@
   </div>
   <div class="container">
     <h1>Facilities at Oak Lodge Portumna</h1>
-    <p>You are very welcome to Oak Lodge <a href="/bed-breakfast/rooms-rates">Bed and Breakfast</a>, Portumna's only <a href="/bed-breakfast/facilities">Bord Fáilte-approved 4 star accomodation</a>, set in the heart of this beautiful, friendly town - walking distance from <a href="/things-to-do">all our great amenities</a>. Oak Lodge, the B&amp;B that <a href="http://www.tripadvisor.co.uk/Hotel_Review-g315874-d2257739-Reviews-Oak_Lodge_Bed_Breakfast_Portumna-Portumna_County_Galway_Western_Ireland.html">Trip Advisor users rate 5 stars</a>.</p>
+    <p>Facilities at Oak Lodge <strong>Bed and Breakfast Portumna</strong> are second-to-none in the area.</p>
+    <p>For all our customers, we offer:</p>
+    <ul>
+      <li>Home made scones on arrival</li>
+      <li>Private (off road) parking</li>
+      <li>Free laundry service</li>
+      <li>Free wi-fi</li>
+      <li>TV</li>
+      <li>Tea/coffee making facilities</li>
+      <li>Hair dryer</li>
+      <li>Lounge/Reading Room</li>
+      <li>Own-use kitchen - come and go as you please!</li>
+      <li>Self-catering (room only) or bed and breakfast</li>
+      <li>Double rooms</li>
+      <li>Twin rooms</li>
+      <li>Family rooms</li>
+      <li>Single rooms</li>
+      <li>All rooms en suite</li>
+    </ul>
+    <p>As well as the above, we also offer a bait room for fishermen, including:</p>
+    <ul>
+      <li>Fridge</li>
+      <li>Drying room</li>
+      <li>Free laundry service</li>
+    </ul>
     <?php include '../includes/awards.php'; ?>
   </div>
 </main>

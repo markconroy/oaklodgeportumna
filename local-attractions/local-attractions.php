@@ -32,7 +32,7 @@ $local_attractions = array(
     'title' => 'Irish Workhouse Centre',
     'link' => '/irish-workhouse-centre',
     'image_thumbnail' => '/assets/images/local-attractions/thumbnails/famine-workhouse-portumna.jpg',
-    'image' => '/assets/images/local-attractions/full/1.jpg',
+    'image' => '/assets/images/local-attractions/full/famine-workhouse-portumna.jpg',
     'description' => '<p>The Irish Workhouse Centre, Portumna is dedicated to telling the story of the Irish Workhouse, the last resort of the destitute poor from the 1840s. Visitors can take a guided tour through the original workhouse buildings and view a short film on life in the workhouse. People can learn about conservation.</p>
 <p>The centre is open from 1st April to 30th September, 2012, 7 days a week from 9 a.m. to 6 p.m. with last admissions at 5 p.m. The tour takes about one hour.</p>
 <p>Admission €5 Adults; €3 Senior/Students and €12 Families with no limit on the number of children.</p>
