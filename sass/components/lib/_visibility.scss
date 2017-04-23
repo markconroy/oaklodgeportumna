@@ -4,6 +4,10 @@
  * them depending on the screen width being viewed.
  */
 
+* {
+  transition: all .3s;
+}
+
 .small-screen-only {
   @include breakpoint($medium) {
     display: none;

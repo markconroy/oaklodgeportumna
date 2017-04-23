@@ -1,2 +1,2 @@
-<?php $index = 0; ?>
+<?php $index = 8; ?>
 <?php include '../la-template.php'; ?>
