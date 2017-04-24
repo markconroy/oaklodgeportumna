@@ -1,5 +1,5 @@
 <!DOCTYPE htmL>
-<html>
+<html lang="en">
   <head>
     <title>Oak Lodge Bed and Breakfast, Portumna, Co. Galway | 5 Stars on TripAdvisor</title>
     <meta name="description" content="Oak Lodge Bed and Breakfast, constantly rated 5 Stars on TripAdvisor, Portumna's only Bord Fáilte approved four star B&B." />
