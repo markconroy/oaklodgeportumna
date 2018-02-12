@@ -26,7 +26,8 @@ $(document).ready(function() {
   $(window).load(function() {
     $('.flexslider').flexslider({
       controlNav: false,
-      directionNav: false
+      directionNav: false,
+      slideshowSpeed: 2500
     });
   });
 
